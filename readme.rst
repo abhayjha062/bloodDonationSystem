@@ -1,70 +1,32 @@
-###################
-What is CodeIgniter
-###################
+bloodDonation-Management-System
+It's a simple app where a donor can come and register his info like blood group contact etc and allow his location and a user or person who is in the need of blood can come to our platform and search his blood group and allow his location and we will show the available blood group of person with his contact details of available donors within a radius of 20 kmph and user can contact the person by his info and met his requirement
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Link of website go to url and see the working project below
 
-*******************
-Release Information
-*******************
+http://blood-management.rf.gd/bloodDonation/
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Setup for project
 
-**************************
-Changelog and New Features
-**************************
+install XAMP
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Used codeigniter3 current version you acn upgrade it to 4
 
-*******************
-Server Requirements
-*******************
+create a database name bloodbank
 
-PHP version 5.6 or newer is recommended.
+create a table name userinfo
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+start your apache and mysql server in xamp
 
-************
-Installation
-************
+go to localhost/bloodDonation
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Working of project
 
-*******
-License
-*******
+A donor can come and register himself with his info
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+now login with his credential where he can change his email phone number and last donated by clicing on his username on homepage
 
-*********
-Resources
-*********
+a user or person who is need of blood can visit our website and first he should allow location
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+go to search page and search by his blood group a info box will come with donor contact details and a user can directly contact
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+the donor for the same
